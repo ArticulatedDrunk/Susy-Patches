@@ -1,0 +1,135 @@
+[
+	{
+	  "dimension": 0,
+	  "mob": [
+		  "minecraft:pig",
+		  "minecraft:cow",
+		  "minecraft:sheep",
+		  "minecraft:rabbit",
+		  "minecraft:llama",
+		  "minecraft:chicken",
+		  "minecraft:horse",
+		  "minecraft:squid"
+	  ],
+	  "mintime": 0,
+	  "maxtime": 12000,
+	  "maxcount": {
+		  "amount": 2,
+		  "perplayer": true
+	  },
+	  "result": "default"
+	},
+	{
+		"onjoin": true,
+		"mod": "srparasites",
+		"block": [
+		 	{"mod": "gregtech"},
+		 	{"block": "susy:susy_multiblock_casing"},
+		 	{"block": "susy:machine"}
+		],
+		"result": "deny"
+	},
+	{
+		"onjoin": true,
+		"mob": "minecraft:zombie",
+		"block": [
+		 	{"mod": "gregtech"},
+		 	{"block": "susy:susy_multiblock_casing"},
+		 	{"block": "susy:machine"}
+		],
+		"result": "deny"
+	},
+	{
+		"dimension": 0,
+		"onjoin": true,
+		"seesky": false,
+		"random": 0.6,
+		"mod": "srparasites",
+		"result": "deny"
+	},
+	{
+		"dimension": 0,
+		"onjoin": true,
+		"notcolliding": true,
+		"canspawnhere": true,
+		"mod": "srparasites"
+	},
+	{
+		"dimension": -1,
+		"onjoin": true,
+		"notcolliding": true,
+		"canspawnhere": true,
+		"mod": "srparasites"
+	},
+	{
+		"dimension": 10,
+		"onjoin": true,
+		"notcolliding": true,
+		"canspawnhere": true,
+		"mod": "srparasites"
+	},
+	{
+		"dimension": 0,
+	  "mod": "caracalsmod",
+	  "maxcount": {
+		  "amount": 1,
+		  "perplayer": true
+	  },
+	  "result": "default"
+	},
+	{
+	  "dimension": 0,
+	  "mob": [
+		  "minecraft:zombie"
+	  ],
+	  "mintime": 14000,
+	  "maxtime": 23999,
+	  "seesky": true,
+	  "maxcount": {
+		  "amount": 2,
+		  "perplayer": true
+	  },
+	  "result": "default",
+	  "damagemultiply": 3,
+	  "angry": true
+	},
+	{
+	  "dimension": 0,
+	  "mob": [
+		  "techguns:outcast"
+	  ],
+	  "spawner": true,
+	  "maxcount": {
+		  "amount": 2,
+		  "perplayer": true
+	  },
+	  "result": "default",
+	  "angry": true
+	},
+	{
+	  "dimension": -1,
+	  "result": "deny"
+	},
+	{
+	  "dimension": 0,
+	  "result": "deny"
+	},
+	{
+	  "dimension": 10,
+	  "mob": [
+		  "minecraft:spider",
+		  "beneath:shadow",
+		  "weeping-angels:weepingangel"
+	  ],
+	  "maxcount": {
+		  "amount": 1,
+		  "perplayer": true
+	  },
+	  "result": "default"
+	},
+	{
+	  "dimension": 10,
+	  "result": "deny"
+	}
+]
+  

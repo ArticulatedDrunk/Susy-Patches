@@ -1,0 +1,32 @@
+[
+	{
+		"dimension": 0,
+		"remove": [
+			"Creeper",
+			"Spider",
+			"minecraft:cave_spider"
+		]
+	},
+	{
+    "dimension": -1,
+    "mobs": [
+      {
+        "mob": "minecraft:pig",
+        "weight": 4,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      }
+    ]
+  },
+	{
+		"remove": [
+			"Bat",
+			"Skeleton",
+			"Enderman",
+			"Squid",
+			"Slime",
+			"Witch",
+			"minecraft:skeleton_horse"
+		]
+	}
+]
