@@ -65,7 +65,7 @@ lang = "en_us"
 	# comment not used by the mod. You can use it to remember what the rule is for
 	# see https://minecraft.gamepedia.com/Server.properties#op-permission-level
 	[[Commands.Command]]
-		id = 0
+		id = 1411256289757106247
 		commands = ["help"]
 		permission_level = -1
 		comment = ""

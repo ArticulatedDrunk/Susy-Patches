@@ -1,0 +1,4 @@
+player.addStartingItem(item('torchmaster:mega_torch')*1)
+player.addStartingItem(item('techguns:sawedoff').withNbt(['camo': (byte) 0, 'ammovariant': 'default', 'ammo': (short) 2])*1)
+player.addStartingItem(item('techguns:itemshared', 2) * 64)
+player.addStartingItem(item('techguns:itemshared', 2) * 64)
