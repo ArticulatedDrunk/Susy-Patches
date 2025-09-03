@@ -4,7 +4,7 @@
 power: 1
 default_player_rank: true
 command.ftbutilities.nick: true
-ftbutilities.claims.max_chunks: 180
+ftbutilities.claims.max_chunks: 200
 
 
 [admin]
@@ -12,3 +12,4 @@ power: 100
 default_op_rank: true
 ftbutilities.chat.name_format: <&2{name}&r>
 ftbutilities.chat.formatting: true
+ftbutilities.claims.max_chunks: 2000

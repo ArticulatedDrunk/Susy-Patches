@@ -16,7 +16,7 @@ lang = "en_us"
 # Many variables are available to customize the behavior. Check them on the wiki: https://github.com/DenisD3D/Minecraft2Discord/wiki/Variables
 [General]
 	# Token for the bot. This is a secret string that can be generated on discord website. More info here: https://github.com/DenisD3D/Minecraft2Discord/wiki/Discord-token
-	token = "MTI1MDA2NTIzNjQ1NTU4Nzk4Mg.GNaWvF.fe5KIfarIxLp9pr7YgMGNkLVtH1iAuHnpqXXn4"
+	token = "MTI1MDA2NTIzNjQ1NTU4Nzk4Mg.GH9MJm.7k2jryaQ46ri03rGxQ64zUWoSFjJnjHJYFYvQI"
 
 # Channels configuration. You may duplicate this block. Each one correspond to one channel
 # id is the discord id of the channel. See: https://github.com/DenisD3D/Minecraft2Discord/wiki/Discord-ids
@@ -30,7 +30,7 @@ lang = "en_us"
 [Channels]
 
 	[[Channels.Channel]]
-		id = 1270332759239557172
+		id = 1412584010311405713
 		subscriptions = ["info", "chat", "command"]
 		mode = "WEBHOOK"
 
@@ -65,20 +65,26 @@ lang = "en_us"
 	# comment not used by the mod. You can use it to remember what the rule is for
 	# see https://minecraft.gamepedia.com/Server.properties#op-permission-level
 	[[Commands.Command]]
-		id = 1411256289757106247
+		id = 1412707146847490108
 		commands = ["help"]
-		permission_level = -1
+		permission_level = 4
 		comment = ""
+	[[Commands.Command]]
+		id = 1412582727710015498
+		commands = ["help"]
+		permission_level = 0
+		comment = ""
+
 
 [Status]
 
 	[Status.Presence]
 		# Message to display under the bot in the member list on Discord
-		message = "${online_players} / ${max_players} players"
+		message = "${online_players} / ${max_players} players; ${ingame_time}"
 		#The type of presence (PLAYING, STREAMING, LISTENING, WATCHING, COMPETING)
 		type = "PLAYING"
 		# Update frequency of the presence message (in seconds). A too low number might result in limitation from Discord
-		update = 60
+		update = 15
 		# Only if type is STREAMING, ignored for others. Must be a valid youtube or twitch link.
 		link = ""
 
@@ -126,7 +132,7 @@ lang = "en_us"
 # The rest of the settings
 [Misc]
 	# Define if other bots messages must be sent in the minecraft chat
-	relay_bot_messages = false
+	relay_bot_messages = true
 	# Define if /say & /me command must be relayed on Discord
 	relay_say_me_tellraw_command = true
 	# List of allowed mention type. Supported value : "EVERYONE_AND_HERE", "ROLE", "USER"
@@ -135,7 +141,7 @@ lang = "en_us"
 	# Message for the /discord command
 	discord_text = "Invitation link not set"
 	# Link for the /discord command
-	discord_link = "https://discord.gg/"
+	discord_link = "https://discord.gg/TQQSFeNMAv"
 	# /!\ Logs feature is disabled on 1.12.2 /!\ Format for forwarding the log on Discord
 	logs_format = "[${log_time!HH:mm:ss}] [${log_thread_name}/${log_level}] [${log_logger_name}]: ${log_message}"
 	# /!\ Logs feature is disabled on 1.12.2 /!\ Level for the log on Discord (FATAL, ERROR, WARN, INFO, DEBUG, TRACE, ALL)
