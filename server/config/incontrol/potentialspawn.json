@@ -8,7 +8,7 @@
 		]
 	},
 	{
-    "dimension": -1,
+    "dimension": 10,
     "mobs": [
       {
         "mob": "minecraft:pig",
