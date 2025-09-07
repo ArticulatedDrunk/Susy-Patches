@@ -43,7 +43,7 @@
 		"dimension": 0,
 		"onjoin": true,
 		"seesky": false,
-		"random": 0.6,
+		"random": 0.3,
 		"mod": "srparasites",
 		"result": "deny"
 	},

@@ -5,7 +5,7 @@ power: 1
 default_player_rank: true
 command.ftbutilities.nick: true
 ftbutilities.chunkloader.max_chunks: 10
-ftbutilities.claims.max_chunks: 200
+ftbutilities.claims.max_chunks: 300
 
 [admin]
 power: 100
