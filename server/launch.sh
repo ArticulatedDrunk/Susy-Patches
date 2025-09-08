@@ -34,3 +34,4 @@ fi
 
 echo "$JAVA_CMD $PARAMS"
 $JAVA_CMD $PARAMS
+bash launch.sh
