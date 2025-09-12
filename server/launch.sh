@@ -34,5 +34,4 @@ fi
 
 echo "$JAVA_CMD $PARAMS"
 $JAVA_CMD $PARAMS
-sleep 30
 bash launch.sh
