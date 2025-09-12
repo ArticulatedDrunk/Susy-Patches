@@ -2,7 +2,7 @@
 
 # If you are having problems, make sure your java version is 1.8.0_xx with java -version
 
-RAM='16G'
+RAM='10G'
 FORGEJAR="forge-1.12.2-14.23.5.2860.jar"
 JAVA_CMD="java" # you can change it to like /usr/lib/jvm/java-8-openjdk/bin/java  if you need a different version without changing the global one
 
